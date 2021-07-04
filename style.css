@@ -1,3 +1,7 @@
+/* *{
+    box-sizing: border-box;
+} */
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,14 +11,17 @@ body{
 section{
     display: flex;
     width: 90%;
-    gap: auto;
-    margin: 3% auto;
+    gap: 30px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    background-image: url(images/meme.png);
-    background-size: 150px 190px;
+    background-image: url(images/poster.png);
+    background-size: 100px 90px;
     background-repeat: no-repeat;
-    background-position: 100% 80%;
-    height: 100vh;
+    background-position: 95% 8%;
+    /* height: 100%; */
 }
 
 .welcome{
@@ -23,13 +30,14 @@ section{
     line-height: 1.8;
 }
 
-.welcome h1,h2,h3{
+.welcome h1,h2{
     font-size: 2rem;
     letter-spacing: 1.2px;
 }
 
 .welcome p{
     font-size: 18px;
+    font-family: 'Roboto Slab', serif;
 }
 
 section img{
@@ -58,7 +66,12 @@ section img{
     text-decoration: none;
     /* background-color: #03A054; */
     background-image: linear-gradient(#42B67E,#02783F);
-    color: black;
+    color: white;
     border-radius: 10px;
     padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-btn:hover{
+    color: brown;
 }
