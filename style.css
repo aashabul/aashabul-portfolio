@@ -8,8 +8,13 @@ section{
     display: flex;
     width: 90%;
     gap: auto;
-    margin: 5% auto;
+    margin: 3% auto;
     position: relative;
+    background-image: url(images/meme.png);
+    background-size: 150px 190px;
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+    height: 100vh;
 }
 
 .welcome{
@@ -39,15 +44,15 @@ section img{
     color: #03A054;
 }
 
-.meme{
+/* .meme{
     position: absolute;
     top: 60%;
     right: 2%;
-}
+} */
 
-.meme img{
+/* .meme img{
     height: 200px;
-}
+} */
 
 .link-btn{
     text-decoration: none;
