@@ -1,18 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 section{
     display: flex;
     width: 90%;
-    gap: 10%;
+    gap: auto;
     margin: 5% auto;
 }
 
 .welcome{
     width: 50%;
     text-align: justify;
+    line-height: 1.8;
+}
+
+.welcome h1,h2,h3{
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+}
+
+.welcome p{
+    font-size: 18px;
 }
 
 section img{
