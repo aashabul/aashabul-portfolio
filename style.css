@@ -9,6 +9,7 @@ section{
     width: 90%;
     gap: auto;
     margin: 5% auto;
+    position: relative;
 }
 
 .welcome{
@@ -36,6 +37,16 @@ section img{
 
 .green{
     color: #03A054;
+}
+
+.meme{
+    position: absolute;
+    top: 60%;
+    right: 2%;
+}
+
+.meme img{
+    height: 200px;
 }
 
 .link-btn{
