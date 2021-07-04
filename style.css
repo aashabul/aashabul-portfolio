@@ -1,18 +1,18 @@
-/* *{
-    box-sizing: border-box;
-} */
 
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-position:90% -4%;
 }
 
 section{
     display: flex;
     width: 90%;
     gap: 30px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
