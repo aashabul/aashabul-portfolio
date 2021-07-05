@@ -81,9 +81,33 @@ h1{
 }
 
 .experience-item{
-    box-shadow: 10px 10px 30px grey;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin-top: 40px;
     border-radius: 10px;
-    border-left: 10px solid #02783F;
+    box-shadow: 10px 10px 30px grey;
+}
+
+#intern{
+    border-left: 10px solid;
+    border-image: linear-gradient(#02783F, rgb(4, 127, 143));
+    border-image-slice: 1;
+}
+
+#senior{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+
+#junior{
+    border-left: 10px solid;
+    border-image: linear-gradient(#8ED081, #4E6A6A);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    background-color: #02783F;
+    padding: 20px 0;
+    color: #ffffff;
 }
